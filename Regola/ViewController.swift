@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import Moya
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let provider = MoyaProvider<GithubEventService>()
+        provider.request(.RepositoryEvents(owner: "Moya", repo: "Moya")) { (result) in
+            print("\(result)")
+        }
         // Do any additional setup after loading the view.
     }
 
