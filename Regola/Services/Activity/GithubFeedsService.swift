@@ -14,12 +14,10 @@ enum GithubFeedsService {
 }
 
 extension GithubFeedsService: TargetType {
-    var baseURL: URL {
-        <#code#>
-    }
+    var baseURL: URL{ return URL(string: "https://api.github.com")! }
     
     var path: String {
-        <#code#>
+        return "/feeds"
     }
     
     var method: Moya.Method {
@@ -27,15 +25,17 @@ extension GithubFeedsService: TargetType {
     }
     
     var sampleData: Data {
-        <#code#>
+        return "sample".data(using: .utf8)!
     }
     
     var task: Task {
-        <#code#>
+        return .requestPlain
     }
     
     var headers: [String : String]? {
-        <#code#>
+        return [
+            "Accept":"application/vnd.github.v3+json"
+        ]
     }
     
     

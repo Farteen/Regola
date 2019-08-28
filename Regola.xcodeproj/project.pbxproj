@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4673A6512316747800ACB9C0 /* GithubEventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673A6502316747800ACB9C0 /* GithubEventService.swift */; };
 		4673A6532316748800ACB9C0 /* GithubFeedsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673A6522316748800ACB9C0 /* GithubFeedsService.swift */; };
+		4673A6552316763100ACB9C0 /* GithubNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673A6542316763000ACB9C0 /* GithubNotificationsService.swift */; };
 		4675145223165BFA00407C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4675145123165BFA00407C36 /* AppDelegate.swift */; };
 		4675145423165BFA00407C36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4675145323165BFA00407C36 /* SceneDelegate.swift */; };
 		4675145623165BFA00407C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4675145523165BFA00407C36 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		3ED475D55B234B82D0FD1034 /* Pods_RegolaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegolaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4673A6502316747800ACB9C0 /* GithubEventService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubEventService.swift; sourceTree = "<group>"; };
 		4673A6522316748800ACB9C0 /* GithubFeedsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFeedsService.swift; sourceTree = "<group>"; };
+		4673A6542316763000ACB9C0 /* GithubNotificationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubNotificationsService.swift; sourceTree = "<group>"; };
 		4675144E23165BFA00407C36 /* Regola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4675145123165BFA00407C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4675145323165BFA00407C36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				4673A6502316747800ACB9C0 /* GithubEventService.swift */,
 				4673A6522316748800ACB9C0 /* GithubFeedsService.swift */,
+				4673A6542316763000ACB9C0 /* GithubNotificationsService.swift */,
 			);
 			path = Activity;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4673A6552316763100ACB9C0 /* GithubNotificationsService.swift in Sources */,
 				4675145623165BFA00407C36 /* ViewController.swift in Sources */,
 				4673A6532316748800ACB9C0 /* GithubFeedsService.swift in Sources */,
 				4675145223165BFA00407C36 /* AppDelegate.swift in Sources */,
