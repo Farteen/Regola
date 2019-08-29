@@ -8,6 +8,7 @@ PODS:
   - Moya/RxSwift (13.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
+  - Nimble (8.0.2)
   - QMUIKit (3.2.1):
     - QMUIKit/QMUIComponents (= 3.2.1)
     - QMUIKit/QMUICore (= 3.2.1)
@@ -274,6 +275,7 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (3.2.1)
   - QMUIKit/QMUIWeakObjectContainer (3.2.1)
+  - Quick (2.1.0)
   - Result (4.1.0)
   - RxSwift (4.5.0)
   - SwiftyJSON (4.3.0)
@@ -285,7 +287,9 @@ DEPENDENCIES:
   - Alamofire (~> 4.8)
   - AlamofireImage (~> 3.5)
   - Moya/RxSwift (~> 13.0)
+  - Nimble
   - QMUIKit
+  - Quick
   - SwiftyJSON (~> 4.0)
   - YYKit
 
@@ -294,7 +298,9 @@ SPEC REPOS:
     - Alamofire
     - AlamofireImage
     - Moya
+    - Nimble
     - QMUIKit
+    - Quick
     - Result
     - RxSwift
     - SwiftyJSON
@@ -304,12 +310,14 @@ SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   QMUIKit: a3af645843b9558eb7aaf407b320eaeb45ab6144
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 4c0d880378ce5a968f86774dcc141acc54bbc680
+PODFILE CHECKSUM: 162ac408343ceb98c5fe6ce5c695713328749ca6
 
 COCOAPODS: 1.7.5

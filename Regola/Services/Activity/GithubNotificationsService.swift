@@ -64,6 +64,27 @@ extension GithubNotifications: TargetType {
     
     var task: Task {
         //TODO: switch to finish api implementation
+//        switch self {
+//        case .DeleteAThreadSubscription(let thread_id):
+//            return .requestPlain
+//        case .GetAThreadSubscription(let thread_id):
+//            let jsonData: [String: String] = ["thread_id": thread_id]
+//            return .requestJSONEncodable(jsonData)
+//        case .ListYourNotifications(let all, let participating, let since, let before):
+//            return .requestPlain
+//        case .ListYourNotificationsInARepository(let all, let participating, let since, let before, let owner, let repo):
+//            return .requestPlain
+//        case .MarkAThreadAsRead(let thread_id):
+//            return .requestPlain
+//        case .MarkAsRead(let last_read_at):
+//            fallthrough
+//        case .MarkNotificationsAsReadInRepository(let last_read_at, let owner, let repo):
+//            fallthrough
+//        case .SetAThreadSubscription(let thread_id):
+//            fallthrough
+//        case .ViewASingleThread(let thread_id):
+//            return .requestPlain
+//        }
         return .requestPlain
     }
     

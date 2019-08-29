@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import RxSwift
+
 @testable import Regola
 
 class RegolaTests: XCTestCase {
